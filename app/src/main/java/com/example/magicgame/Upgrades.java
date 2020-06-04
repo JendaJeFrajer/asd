@@ -26,6 +26,6 @@ public class Upgrades extends AppCompatActivity {
     }
     public void Brm1(View view)
     {
-        B1.setText("Sam Je Gej");
+        B1.setText("Honza Je Gej");
     }
 }
