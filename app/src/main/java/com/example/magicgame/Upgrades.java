@@ -14,14 +14,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class Upgrades extends AppCompatActivity {
-
+    Button B1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        B1 = (Button) findViewById(R.id.B1);
 
 
 
-
+    }
+    public void Brm1(View view)
+    {
+        B1.setText("Sam Je Gej");
     }
 }
